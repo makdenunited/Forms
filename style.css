@@ -1,0 +1,154 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,regular,500,700,900,&display=swap);
+
+/* Обнуление */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+li {
+  list-style: none;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: roboto;
+  font-weight: inherit;
+  font-size: inherit;
+}
+.image {
+  vertical-align: top;
+}
+html,
+body {
+  background: url(../img/BG\ Image.png)  center  no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  line-height: 1;
+  padding: 0;
+  font-family: "Roboto";
+   
+}
+
+.wrapper {
+  width: 100%;
+  min-height: 100%;
+   overflow: hidden; */
+}
+.main{
+  
+   
+}
+.appointment {
+  
+}
+.appointment__conteiner {
+  max-width: 585px;
+  margin: 139px 0px 0px 207px;
+  background: #5D62B5;
+  border-radius: 40px;
+  padding: 0 20px;
+}
+.appointment__header {
+font-style: normal;
+font-weight: 900;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+color: #FFFFFF;
+padding: 76px 58px 43px;
+}
+.appointment__form-fields {
+  display: flex;
+  justify-content: space-between;
+  flex: 1 1 50%;
+  flex-wrap: wrap;
+  gap: 22px;
+  
+}
+input{
+  width: 224px;
+  height: 48px;
+  opacity: 0.8;
+  border: 2px solid #FFFFFF;
+border-radius: 10px;
+background: #5D62B5;
+color: #FFFFFF;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.15px;
+padding-left: 24px;
+}
+input:hover{
+  border: 2px solid #f05b58;   
+}
+
+::placeholder{
+  color: #FFFFFF; 
+}
+
+.tell-us{
+display: flex;
+flex: 1 1 100%; 
+  padding: 15px 0px;
+  resize: none;
+  background: #5D62B5;
+  border-radius: 40px; 
+  color: #FFFFFF; 
+  border: 2px solid #FFFFFF;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  font-family: "Roboto";
+  opacity: 0.8;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.15px;
+  padding-left: 24px;
+}
+.tell-us:hover{
+  border: 2px solid #f05b58; ;  
+}
+.appointment__form-button {
+display: block;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 24px;
+letter-spacing: 0.15px;
+text-transform: uppercase;
+color: #FFFFFF;
+background: #F2726F;
+border-radius: 8px;
+width: 210px;
+height: 48px;
+margin: 0px 57px 76px 318px;
+cursor: pointer;
+padding: 0 5px;
+}
+.appointment__form-button:hover{
+background: #f05b58; 
+letter-spacing: 0.19px;
+box-shadow: 0 0 18px  #f05b58;
+}
+
+.footer {
+  
+}
